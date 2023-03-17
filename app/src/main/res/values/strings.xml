@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Telegram Chat</string>
+    <string name="qr_reader">qr reader</string>
+    <string name="info">Info</string>
+    <string name="t_me_thechance101">t.me/theChance101</string>
+    <string name="invite_link">Invite Link</string>
+    <string name="notifications">Notifications</string>
+    <string name="off">Off</string>
+    <string name="the_chance">The Chance</string>
+    <string name="_813_subsbribers">813 subsbribers</string>
+    <string name="media">Media</string>
+    <string name="files">Files</string>
+    <string name="links">Links</string>
+</resources>
