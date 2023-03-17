@@ -26,25 +26,35 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/photo2"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+
     <TextView
         android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Large"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/the_chance"
         android:fontFamily="@font/cairo_semibold"
+        android:text="@string/the_chance"
         android:textColor="#DEFFFFFF"
-        style="@style/TextAppearance.AppCompat.Large"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="61dp" />
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/TextAppearance.AppCompat.Caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/cairo"
         android:text="@string/_813_subsbribers"
         android:textColor="#99FFFFFF"
-        style="@style/TextAppearance.AppCompat.Caption"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="61dp" />
 
@@ -76,10 +86,10 @@
         layout="@layout/content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/back"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/back" />
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
